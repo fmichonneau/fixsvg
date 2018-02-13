@@ -20,4 +20,8 @@ devtools::install_github("fmichonneau/fixsvg")
 Example
 -------
 
-This is a basic example which shows you how to solve a common problem:
+This package contains a single exported function, `fix_clip_path()` that takes as an argument the path of a project that may contain SVG files containing the `clip-path` element:
+
+``` r
+fix_clip_path("my-website")
+```
